@@ -20,7 +20,7 @@ Notez que python ne supporte pas les chiffres au-delà d'une précision d'autour
 - Ledit fichier devra faire moins de 4Ko;
 - Votre code devra exécuter en moins de 10 secondes. **Notez que votre machine exécutera votre programme à une vitesse différente de celle qui sera utilisé pour évaluer votre soumission. Donnez-vous donc une marge de manoeuvre de 2-3 secondes.**;
 - Votre code doit être exécutable à partir de la fonction `main()`;
-- La fonction `main()` doit renvoyer un string qui contient un nombre sous forme décimale et dont chaque caractères est un chiffre.
+- La fonction `main()` doit renvoyer un int.
 
 ## Défis 3:
 À l'aide de python, vous devrez lire un fichier .txt qui contient un livre `Décider quel livre`. Vous devrez analyser ce fichier .txt afin d'extraire les informations suivantes:
@@ -79,4 +79,5 @@ Voici vos critères:
 - Votre code doit être exécutable depuis la fonction `main()`;
 - La fonction `main` doit avoir la signature suivante : `def main(P : list[list[float]], V : list[list[float]], T : list[list[float]], p : list[float]) -> list[float]`;
 - La fonction `main` doit renvoyer un vecteur à 4 dimensions sous la forme d'une `list[float]`;
-- Votre code doit exécuter le plus rapidement possible.
+- Votre code doit exécuter le plus rapidement possible;
+- **L'utilisation de bibliothèques de calcul vectoriel est interdite**. *Le cas échant, la soumission sera rejetée.*
